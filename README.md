@@ -15,5 +15,5 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Comunicazione col backend
+Nel file /src/App.vue, alla riga #38, occorre modificare l'URL a cui risponde la app di backend, per poter recuperare correttamente il JSON.
